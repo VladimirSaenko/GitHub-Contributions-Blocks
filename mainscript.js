@@ -47,6 +47,13 @@ colorlist.addEventListener('input', () => {
             document.documentElement.style.setProperty('--level3', 'rgb(249, 122, 29)');
             document.documentElement.style.setProperty('--level4', 'rgb(251, 223, 100)');
         break;
+        case 'winter':
+            document.documentElement.style.setProperty('--level0', 'rgb(45, 51, 59)');
+            document.documentElement.style.setProperty('--level1', 'rgb(10, 48, 105)');
+            document.documentElement.style.setProperty('--level2', 'rgb(9, 105, 218)');
+            document.documentElement.style.setProperty('--level3', 'rgb(84, 174, 255)');
+            document.documentElement.style.setProperty('--level4', 'rgb(182, 227, 255)');
+        break;
         case 'office':
             document.documentElement.style.setProperty('--level0', 'rgb(63, 70, 78)');
             document.documentElement.style.setProperty('--level1', 'rgb(4, 20, 82)');
